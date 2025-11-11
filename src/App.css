@@ -1,0 +1,119 @@
+/* import React from 'react'
+import './Body.css'
+import { useNavigate } from 'react-router-dom'
+import {
+  SiPython, SiSQL, SiCplus, SiJavaScript, SiKotlin, SiNumPY, SiPandas, SiR, SiRuby, SiRust, SiTypeScript, SiGo,
+  SiSwift,  SiC, SiHTML, SiJava, SiChash, SiCSS
+} from "react-icons/si";
+import { FaCode } from "react-icons/fa";
+
+
+
+function Body(){
+    var navigate = useNavigate()
+
+    function handlePython() {
+    navigate("/Python");
+  }
+  function handleR() {
+    navigate("/R");
+  }
+  function handleHTML(){
+    navigate("/HTML");
+  }
+
+  function handleSQL(){
+    navigate("/SQL");
+  }
+  function handleCSS(){
+    navigate("/CSS");
+  }
+  function handleJavaScript(){
+    navigate("/JavaScript");
+  }
+  
+  function handlePandas(){
+    navigate("/Pandas");
+  }
+  function handleGo(){
+    navigate("/Go");
+  }
+  function handleRust(){
+    navigate("/Rust");
+  }
+   function handleSwift(){
+    navigate("/Swift");
+  }
+  function handleDSA(){
+    navigate("/DSA");
+  }
+  function handleRuby(){
+    navigate ("/Ruby");
+  }
+  function handleRust(){
+    navigate("/Rust");
+  }
+  function handleNumPY(){
+    navigate("/NumPY");
+  }
+  function handleC(){
+    navigate("/C");
+  }
+   function handleChash(){
+    navigate("/Chash");
+  }
+   function handleCplus(){
+    navigate("/Cplus");
+  }
+  function handleJava(){
+    navigate("/Java");
+  }
+ function handleTypeScript(){
+    navigate("/TypeScript");
+  }
+   function handleKotlin(){
+    navigate("/Kotlin");
+  }
+
+
+
+
+    return(
+        <div>
+            <h1 id='h1'>Learn Programiz For Free</h1>
+
+            <div id='div1'>
+            <button className='btn1' onClick={handlePython}><SiPython/>Python</button>
+            <button className='btn1' onClick={handleSQL}><SiSQL/>SQL</button>
+            <button className='btn1' onClick={handleR}><SiR/>R</button>
+            <button className='btn1' onClick={handleHTML}><SiHTML/>HTML</button>
+            <button className='btn1' onClick={handleCSS}><SiCSS/>CSS</button>
+            <button className='btn1' onClick={handleJavaScript}><SiJavaScript/>JavaScript</button>
+        </div>
+         <div id='div2'>
+            <button className='btn2' onClick={handleTypeScript}><SiTypeScript/>TypeScript</button>
+            <button className='btn2' onClick={handleJava}><SiJava/>Java</button>
+            <button className='btn2' onClick={handleC}><SiC/>C</button>
+            <button className='btn2' onClick={handleCplus}><SiCplus/>C++</button>
+            <button className='btn2' onClick={handleChash}><SiChash/>C#</button>
+            <button className='btn2' onClick={handleGo}><SiGo/>Go</button>
+        </div>
+
+        <div id='div3'>
+            <button className='btn3' onClick={handleKotlin}><SiKotlin/>Kotlin</button>
+            <button className='btn3' onClick={handleSwift}><SiSwift/>Swift</button>
+            <button className='btn3' onClick={handleDSA}><SiDSA/>DSA</button>
+            <button className='btn3' onClick={handleNumPY}><SiNumPY/>NumPY</button>
+            <button className='btn3' onClick={handlePandas}><SiPandas/>Pandas</button>
+            <button className='btn3' onClick={handleRust}><SiRust/>Rust</button>
+        </div>
+
+       <div id='div4'>
+            <button className='btn4'onClick={handleRuby}><SiRuby/>Ruby</button>
+        </div>  
+        
+            
+        </div>
+    )
+}
+export default Body */

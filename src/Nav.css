@@ -1,0 +1,44 @@
+.Nav{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    padding: 30px;
+    color:white;
+    width: 1355px;
+    border: solid black;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(127, 115, 235);
+    border: solid white;
+    border-radius: 10px;
+    margin-bottom: 95px;
+    margin-left: 5px;
+    height: 80px;
+}
+
+
+#Login{
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    margin-left: 10px;
+    gap: 40px;
+}
+#Login:hover {
+    background-color:rgb(4, 79, 109);
+    color: white;
+
+}
+.b{
+    font-size: xxx-large;
+    margin-left: 83px ;
+    height: fit-content;
+}
+#bold{
+    font-size: x-large;
+    margin-bottom: 22px ;
+}
